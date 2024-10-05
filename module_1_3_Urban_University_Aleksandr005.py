@@ -1,3 +1,5 @@
+from tkinter.scrolledtext import example
+
 name = 'Name: Aleksandr'
 print (name)
 age = 'Age: 37'
@@ -11,5 +13,12 @@ first_name = 'Курс Python,' # Курс: Python, всего задач:12, з
 
 DZ_count = 1.5
 time_count = 12
-print (first_name, 'всего задач:' ,time_count, ',затрачено часов:',DZ_count, 'cреднее время выполнения',DZ_count/time_count)
-# не понял как поставить запятую без пробела после цифр и точку в конце предожения
+print (first_name, 'всего задач:' ,time_count,',' 'затрачено часов:',DZ_count, 'cреднее время выполнения',DZ_count/time_count)
+# не понял как поставить запятую без пробела после цифр 12 и 1.5 и точку в конце предожения
+
+example = 'Aleksandr'
+print (example [:1]) #первый символ строки
+print (example [-1]) # последний символ строки
+print (example [4:10])# вторая половина строки не понимаю как посчитать количество символов в строке для установления чет нечет
+print (example [::-1]) # строка наоборот
+print (example [::2]) # каждый второй символ
